@@ -2101,8 +2101,8 @@ GameObject:
   m_Name: Cube
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &611684945
 Transform:
@@ -2743,7 +2743,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1004778046
 Transform:
   m_ObjectHideFlags: 0
@@ -3873,6 +3873,100 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1697623653}
   m_CullTransparentMesh: 0
+--- !u!1 &1729518586
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1729518587}
+  - component: {fileID: 1729518590}
+  - component: {fileID: 1729518589}
+  - component: {fileID: 1729518588}
+  m_Layer: 2
+  m_Name: Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 8
+  m_IsActive: 0
+--- !u!4 &1729518587
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729518586}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.57, y: 1.22, z: -3.6}
+  m_LocalScale: {x: 5.2804, y: 1, z: 3.4894922}
+  m_Children: []
+  m_Father: {fileID: 139739790818187887}
+  m_RootOrder: 104
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &1729518588
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729518586}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1729518589
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729518586}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: dfabd0d326f188145bcea2daa40e8d5a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1729518590
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729518586}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1798860930
 GameObject:
   m_ObjectHideFlags: 0
@@ -4759,7 +4853,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2033040589
 Transform:
   m_ObjectHideFlags: 0
@@ -4942,7 +5036,7 @@ GameObject:
   m_TagString: Foret
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2139954451
 Transform:
@@ -5047,8 +5141,8 @@ GameObject:
   m_Name: Cylinder.036
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &6880540859477826
 MeshCollider:
@@ -5224,8 +5318,8 @@ GameObject:
   m_Name: Cone.042
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &57310934506712183
 MeshCollider:
@@ -5563,6 +5657,7 @@ Transform:
   - {fileID: 506520029}
   - {fileID: 6414039775721431053}
   - {fileID: 872971296}
+  - {fileID: 1729518587}
   m_Father: {fileID: 2033040589}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5961,8 +6056,8 @@ GameObject:
   m_Name: Cylinder.038
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &234519369518685241
 MeshCollider:
@@ -6188,8 +6283,8 @@ GameObject:
   m_Name: Cylinder.041
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &385626942272335203
 MeshCollider:
@@ -7156,8 +7251,8 @@ GameObject:
   m_Name: Cone.036
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &759585184680559510
 MeshCollider:
@@ -7301,8 +7396,8 @@ GameObject:
   m_Name: Cone.019
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &856490699848185133
 MeshCollider:
@@ -7669,8 +7764,8 @@ GameObject:
   m_Name: Cylinder.035
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &925405938520878370
 MeshCollider:
@@ -7824,8 +7919,8 @@ GameObject:
   m_Name: Cylinder.004
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &993465102236637695
 MeshCollider:
@@ -7857,8 +7952,8 @@ GameObject:
   m_Name: Cylinder.018
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &996392027992504828
 MeshCollider:
@@ -7923,8 +8018,8 @@ GameObject:
   m_Name: Cube
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1006183328657428449
 MeshCollider:
@@ -9042,8 +9137,8 @@ GameObject:
   m_Name: Cone.001
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1373292211693730056
 MeshCollider:
@@ -9370,8 +9465,8 @@ GameObject:
   m_Name: Cone.043
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1483742599829312246
 MeshCollider:
@@ -9854,8 +9949,8 @@ GameObject:
   m_Name: Cone.040
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1660188283270825924
 MeshCollider:
@@ -9936,8 +10031,8 @@ GameObject:
   m_Name: Cylinder.042
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1683796560788015729
 MeshCollider:
@@ -10373,8 +10468,8 @@ GameObject:
   m_Name: Cone.015
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1831094165473692009
 MeshCollider:
@@ -10469,8 +10564,8 @@ GameObject:
   m_Name: Cylinder.044
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1864009790275727276
 MeshCollider:
@@ -10692,8 +10787,8 @@ GameObject:
   m_Name: Cylinder.025
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1913839068552335732
 MeshCollider:
@@ -11303,8 +11398,8 @@ GameObject:
   m_Name: Cone.013
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &2130604375324026679
 MeshCollider:
@@ -11416,8 +11511,8 @@ GameObject:
   m_Name: Cone.020
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &2146599853552349055
 MeshCollider:
@@ -11496,8 +11591,8 @@ GameObject:
   m_Name: Cone.032
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &2174638994657360951
 MeshCollider:
@@ -11830,8 +11925,8 @@ GameObject:
   m_Name: Cylinder.024
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &2266771269901264966
 MeshCollider:
@@ -11916,8 +12011,8 @@ GameObject:
   m_Name: Cylinder.005
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &2352762357550479260
 MeshCollider:
@@ -11963,8 +12058,8 @@ GameObject:
   m_Name: Cylinder.048
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &2358201629956790572
 MeshCollider:
@@ -12077,8 +12172,8 @@ GameObject:
   m_Name: Cone.008
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &2393977628910501002
 MeshCollider:
@@ -12368,8 +12463,8 @@ GameObject:
   m_Name: Cylinder.013
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &2504626520307962322
 MeshCollider:
@@ -12650,8 +12745,8 @@ GameObject:
   m_Name: Cylinder.002
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &2662822794445626003
 MeshCollider:
@@ -12737,8 +12832,8 @@ GameObject:
   m_Name: Cone.037
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &2679804513596500311
 MeshCollider:
@@ -12833,8 +12928,8 @@ GameObject:
   m_Name: Cone.018
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &2737496168674033442
 MeshCollider:
@@ -13299,8 +13394,8 @@ GameObject:
   m_Name: Cone.010
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &2858892794900107535
 MeshCollider:
@@ -13820,8 +13915,8 @@ GameObject:
   m_Name: Torus.001
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &2977410675852799809
 MeshCollider:
@@ -14243,8 +14338,8 @@ GameObject:
   m_Name: Cone.002
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3158823583584538031
 MeshCollider:
@@ -14382,8 +14477,8 @@ GameObject:
   m_Name: Cylinder.026
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3203763923790884745
 MeshCollider:
@@ -14456,8 +14551,8 @@ GameObject:
   m_Name: Cylinder.046
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3231898406919855302
 MeshCollider:
@@ -14632,8 +14727,8 @@ GameObject:
   m_Name: Cylinder.021
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3291288228656084851
 MeshCollider:
@@ -14728,8 +14823,8 @@ GameObject:
   m_Name: Cylinder.028
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3323092880755715627
 MeshCollider:
@@ -14800,8 +14895,8 @@ GameObject:
   m_Name: Cone.011
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3337895251020215988
 MeshCollider:
@@ -14908,8 +15003,8 @@ GameObject:
   m_Name: Cone.007
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3360320477711408973
 MeshCollider:
@@ -14982,8 +15077,8 @@ GameObject:
   m_Name: Cylinder.015
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3406907530011500590
 MeshCollider:
@@ -15666,8 +15761,8 @@ GameObject:
   m_Name: Cylinder.006
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3681647965918221741
 MeshCollider:
@@ -15785,8 +15880,8 @@ GameObject:
   m_Name: Ladder
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3766959540404052164
 MeshCollider:
@@ -15832,8 +15927,8 @@ GameObject:
   m_Name: Cylinder
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3802135937056699269
 MeshCollider:
@@ -15919,8 +16014,8 @@ GameObject:
   m_Name: Cone.022
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3850021683903364397
 MeshCollider:
@@ -16024,8 +16119,8 @@ GameObject:
   m_Name: Cylinder.008
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3854856226460626041
 MeshCollider:
@@ -16304,8 +16399,8 @@ GameObject:
   m_Name: Cylinder.031
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3912508890475453935
 MeshCollider:
@@ -16418,8 +16513,8 @@ GameObject:
   m_Name: Cylinder.027
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3957693734176303214
 MeshCollider:
@@ -16451,8 +16546,8 @@ GameObject:
   m_Name: Cone.012
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3962445277363380988
 MeshCollider:
@@ -16512,8 +16607,8 @@ GameObject:
   m_Name: Cone.030
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3973596957014929422
 MeshCollider:
@@ -16729,8 +16824,8 @@ GameObject:
   m_Name: Cone.009
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &4039017819649144629
 MeshCollider:
@@ -16823,8 +16918,8 @@ GameObject:
   m_Name: Cone.021
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &4075427879504291141
 MeshCollider:
@@ -17142,8 +17237,8 @@ GameObject:
   m_Name: Cylinder.016
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &4166463961168790882
 MeshCollider:
@@ -17674,8 +17769,8 @@ GameObject:
   m_Name: Cylinder.014
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &4325560351741239270
 MeshCollider:
@@ -17903,8 +17998,8 @@ GameObject:
   m_Name: Cone.028
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &4382136740600497173
 MeshCollider:
@@ -17989,8 +18084,8 @@ GameObject:
   m_Name: Cone.031
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &4413825056706353302
 MeshCollider:
@@ -18112,8 +18207,8 @@ GameObject:
   m_Name: Cylinder.030
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &4454352636398284450
 MeshCollider:
@@ -18225,8 +18320,8 @@ GameObject:
   m_Name: Cylinder.043
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &4503092307352710679
 MeshCollider:
@@ -18438,8 +18533,8 @@ GameObject:
   m_Name: Cylinder.011
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &4593985266044893361
 MeshCollider:
@@ -18683,8 +18778,8 @@ GameObject:
   m_Name: Plane.001
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &4687833912654618260
 MeshCollider:
@@ -18832,8 +18927,8 @@ GameObject:
   m_Name: Cylinder.032
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &4766604558319389218
 MeshCollider:
@@ -19113,8 +19208,8 @@ GameObject:
   m_Name: Cone.017
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &4876345359345298607
 MeshCollider:
@@ -19249,8 +19344,8 @@ GameObject:
   m_Name: Cone.014
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &4944760915268450900
 MeshCollider:
@@ -19731,8 +19826,8 @@ GameObject:
   m_Name: Cone.003
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &5115922052605999606
 MeshCollider:
@@ -19975,8 +20070,8 @@ GameObject:
   m_Name: Cone.004
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &5212434466020392594
 MeshCollider:
@@ -20120,8 +20215,8 @@ GameObject:
   m_Name: Cone.033
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &5269913092401630003
 MeshCollider:
@@ -20213,8 +20308,8 @@ GameObject:
   m_Name: Cone.041
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &5303497382069025108
 MeshCollider:
@@ -20260,8 +20355,8 @@ GameObject:
   m_Name: Cylinder.020
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &5316319035896287462
 MeshCollider:
@@ -20437,8 +20532,8 @@ GameObject:
   m_Name: Cylinder.029
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &5380724244860686652
 MeshCollider:
@@ -20503,8 +20598,8 @@ GameObject:
   m_Name: Cylinder.045
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &5404984579490651318
 MeshCollider:
@@ -20790,8 +20885,8 @@ GameObject:
   m_Name: Cylinder.017
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &5562621077423210634
 MeshCollider:
@@ -20930,8 +21025,8 @@ GameObject:
   m_Name: Cylinder.010
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &5670291482152283840
 MeshCollider:
@@ -21642,8 +21737,8 @@ GameObject:
   m_Name: Cylinder.012
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &5906226473947796634
 MeshCollider:
@@ -21821,8 +21916,8 @@ GameObject:
   m_Name: Cylinder.023
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &5945573423058394388
 MeshCollider:
@@ -22174,8 +22269,8 @@ GameObject:
   m_Name: Cylinder.037
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &6062001705344315494
 MeshCollider:
@@ -22479,8 +22574,8 @@ GameObject:
   m_Name: Cone.005
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &6193241660060356588
 MeshCollider:
@@ -22754,8 +22849,8 @@ GameObject:
   m_Name: Cone.025
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &6317187787252620262
 MeshCollider:
@@ -22895,8 +22990,8 @@ GameObject:
   m_Name: Cone.034
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &6364357651185254196
 MeshCollider:
@@ -23024,8 +23119,8 @@ GameObject:
   m_Name: Cone.006
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &6471003128804561958
 MeshCollider:
@@ -23099,8 +23194,8 @@ GameObject:
   m_Name: Cone.024
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &6505454656609784312
 MeshCollider:
@@ -23628,8 +23723,8 @@ GameObject:
   m_Name: Cone.027
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &6633941472907896233
 MeshCollider:
@@ -23689,8 +23784,8 @@ GameObject:
   m_Name: Cylinder.007
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &6637136053597787299
 MeshCollider:
@@ -25238,8 +25333,8 @@ GameObject:
   m_Name: Cone.039
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &7235980958424838904
 MeshCollider:
@@ -25674,8 +25769,8 @@ GameObject:
   m_Name: Cylinder.009
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &7385175909628711389
 MeshCollider:
@@ -25973,8 +26068,8 @@ GameObject:
   m_Name: Cylinder.047
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &7468971665026901295
 MeshCollider:
@@ -26479,8 +26574,8 @@ GameObject:
   m_Name: Cylinder.019
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &7696518557670747592
 MeshCollider:
@@ -26861,8 +26956,8 @@ GameObject:
   m_Name: Cone.038
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &7842834548332526686
 MeshCollider:
@@ -26927,8 +27022,8 @@ GameObject:
   m_Name: Cone.029
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &7852047473395988544
 MeshCollider:
@@ -27046,8 +27141,8 @@ GameObject:
   m_Name: Cylinder.033
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &7882348416985931476
 MeshCollider:
@@ -27269,8 +27364,8 @@ GameObject:
   m_Name: Cylinder.022
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &7961788330331966110
 MeshCollider:
@@ -27358,8 +27453,8 @@ GameObject:
   m_Name: Cylinder.034
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8048907858431180959
 MeshCollider:
@@ -27391,8 +27486,8 @@ GameObject:
   m_Name: Cylinder.040
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8056076615395033301
 MeshCollider:
@@ -27559,8 +27654,8 @@ GameObject:
   m_Name: Cylinder.001
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8096768677263023288
 MeshCollider:
@@ -27732,8 +27827,8 @@ GameObject:
   m_Name: Cone.035
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8171787457754922613
 MeshCollider:
@@ -28175,8 +28270,8 @@ GameObject:
   m_Name: Cone.026
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8271352015269627548
 MeshCollider:
@@ -29356,8 +29451,8 @@ GameObject:
   m_Name: Cylinder.039
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8824255072918172369
 MeshCollider:
@@ -29554,8 +29649,8 @@ GameObject:
   m_Name: Cone
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8893533083955793354
 MeshCollider:
@@ -29636,8 +29731,8 @@ GameObject:
   m_Name: Cone.023
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8927733909255436560
 MeshCollider:
@@ -30077,8 +30172,8 @@ GameObject:
   m_Name: Cone.016
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &9108209561062825589
 MeshCollider:
@@ -30124,8 +30219,8 @@ GameObject:
   m_Name: Cube.001
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &9127879877077155221
 MeshCollider:
@@ -30196,8 +30291,8 @@ GameObject:
   m_Name: Cylinder.003
   m_TagString: Foret
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &9134956402031205011
 MeshCollider:
