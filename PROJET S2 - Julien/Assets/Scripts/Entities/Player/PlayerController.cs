@@ -4,10 +4,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+
 public class PlayerController : MonoBehaviour
 {
     public CharacterController cc;
     public Animator anim;
+    
+    
+    public delegate void OnFocusChanged(Interactable newFocus);
+    public OnFocusChanged onFocusChangedCallback;
+    public Interactable focus;
 
     //Movement Variables
     public float speed = 12f;
@@ -89,6 +95,39 @@ public class PlayerController : MonoBehaviour
                 HandleAnim();
                 break;
         }
+        
+        // Interactables
+        if (Input.GetMouseButtonDown(0))
+        {
+            RaycastHit hit;
+            if (Physics.Raycast(cameraHolder.transform.position, cameraHolder.transform.forward, out hit))
+            {
+                Debug.Log("Raycast hit!");
+                SetFocus(hit.collider.GetComponent<Interactable>());
+            }
+        }
+    }
+    
+    // Interactable Focus
+    // Set our focus to a new focus
+    void SetFocus (Interactable newFocus)
+    {
+        if (onFocusChangedCallback != null)
+            onFocusChangedCallback.Invoke(newFocus);
+
+        
+        if (focus != newFocus && focus != null)
+        {
+            focus.OnDefocused();
+        }
+
+        focus = newFocus;
+
+        if (focus != null)
+        {
+            focus.OnFocused(transform);
+        }
+
     }
 
     //player movement

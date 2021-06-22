@@ -5,10 +5,11 @@ using UnityEngine.AI;
 
 public class nav : MonoBehaviour
 {
-    GameObject[] targets;
+    public GameObject[] targets;
     GameObject target;
     [SerializeField] NavMeshAgent agent;
     [SerializeField] float DistanceSociale;
+    [SerializeField] float DistanceView;
 
 
     // Update is called once per frame

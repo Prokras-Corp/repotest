@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a5e89d0e-a993-4987-aa7a-9610912c24a4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Resources/Photon Prefabs/PlayerController.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Resources/Photon Prefabs/PlayerController.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Resources/Photon Prefabs/PlayerManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Resources/Photon Prefabs/PlayerManager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Scenes/Menus.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Scenes/Menus.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HandleGateL.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HandleGateL.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HandleGateR.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HandleGateR.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HookshotController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HookshotController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Launcher.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Launcher.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Menu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Menu.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MenuManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MenuManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ObjectTrigger.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ObjectTrigger.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ObjectUnlock.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ObjectUnlock.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PlayerController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PlayerController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PlayerListItem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PlayerListItem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PlayerManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PlayerManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RoomListItem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RoomListItem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RoomManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RoomManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SetLevel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SetLevel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ToCave.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ToCave.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ToForest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ToForest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ToMaze.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ToMaze.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ToPlant.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ToPlant.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TriggerLevel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TriggerLevel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TriggerVillage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TriggerVillage.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../nav.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../nav.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../HealthBar.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Entities/Enemies/nav.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Items/Equipment/EquipmentManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Entities/Player/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Items/Inventory.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Inventory/ArmorSlot.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../../Julien/PROJET S2 - Julien/Assets/Scripts/Managers/PlayerManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Entities/Enemies/Enemy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Inventory/InventoryUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Items/ItemPickup.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Inventory/InventorySlot.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Entities/Player/PlayerManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../../Julien/PROJET S2 - Julien/Assets/Scripts/Interactables/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Entities/Interactable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Items/Item.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Entities/Stats/CharacterStats.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Items/Equipment/Equipment.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Entities/Stats/CharacterCombat.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/OptionsScript.cs" />
+        <option value="$PROJECT_DIR$/../../Entities/Enemies/nav.cs" />
+        <option value="$PROJECT_DIR$/../../Entities/Player/PlayerManager.cs" />
+        <option value="$PROJECT_DIR$/../../ArmorSlot.cs" />
+        <option value="$PROJECT_DIR$/../Inventory/InventorySlot.cs" />
+        <option value="$PROJECT_DIR$/../../Items/Equipment/Armor.cs" />
+        <option value="$PROJECT_DIR$/../../Items/Equipment/Equipment.cs" />
+        <option value="$PROJECT_DIR$/../../Items/Item.cs" />
+        <option value="$PROJECT_DIR$/../../Items/Equipment/ArmorSlot.cs" />
+        <option value="$PROJECT_DIR$/../Inventory/ArmorSlot.cs" />
+        <option value="$PROJECT_DIR$/../../Items/Equipment/EquipmentManager.cs" />
+        <option value="$PROJECT_DIR$/../../Items/ItemPickup.cs" />
+        <option value="$PROJECT_DIR$/../../Entities/Interactable.cs" />
+        <option value="$PROJECT_DIR$/../../Entities/Player/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/../../../HealthBar.cs" />
+        <option value="$PROJECT_DIR$/../../Entities/Stats/CharacterStats.cs" />
+        <option value="$PROJECT_DIR$/../../HealthBar.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1uHBy03dZ9UtxBWaplCOvjXeRqf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a5e89d0e-a993-4987-aa7a-9610912c24a4" name="Default Changelist" comment="" />
+      <created>1624312893102</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624312893102</updated>
+      <workItem from="1624312901467" duration="15499000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="609" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1624333851582">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="609" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1624333851582" />
+  </component>
+</project>

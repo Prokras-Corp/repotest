@@ -2,14 +2,20 @@
 using Photon.Pun;
 using System.IO;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 public class PlayerManager : MonoBehaviour
 {
+    public static PlayerManager instance;
     PhotonView PV;
+
+    public GameObject player;
 
     private void Awake()
     {
+        instance = this;
         PV = GetComponent<PhotonView>();
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
     void Start()
@@ -29,5 +35,10 @@ public class PlayerManager : MonoBehaviour
     {
         PhotonNetwork.Instantiate(Path.Combine("Photon Prefabs", "PlayerController"), Vector3.zero, Quaternion.identity);
         //Met le prefab dans la scène
+    }
+
+    public void KillPlayer()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

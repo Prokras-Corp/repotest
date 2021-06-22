@@ -1720,6 +1720,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cc: {fileID: 5532163108146021116}
   anim: {fileID: 6656169070605765444}
+  focus: {fileID: 0}
   speed: 13
   gravity: -19.62
   jumpHeight: 2.5
