@@ -7,6 +7,7 @@ public class AudioManager : MonoBehaviour
     public Sound[] sounds;
 
     public static AudioManager instance;
+
     void Awake()
     {
         if (instance == null)
@@ -16,9 +17,10 @@ public class AudioManager : MonoBehaviour
             Destroy(gameObject);
             return;
         }
+
         DontDestroyOnLoad(gameObject);
-        
-        
+
+
         foreach (Sound s in sounds)
         {
             s.source = gameObject.AddComponent<AudioSource>();
@@ -30,10 +32,6 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    void Start()
-    {
-        Play("Rever Home Town");
-    }
     public void Play(string name)
     {
         Sound s = Array.Find(sounds, sound => sound.name == name);

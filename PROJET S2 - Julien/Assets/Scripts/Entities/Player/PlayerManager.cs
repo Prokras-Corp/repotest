@@ -11,11 +11,12 @@ public class PlayerManager : MonoBehaviour
 
     public GameObject player;
 
+
     private void Awake()
     {
         instance = this;
         PV = GetComponent<PhotonView>();
-        player = GameObject.FindGameObjectWithTag("Player");
+        /*player = GameObject.FindGameObjectWithTag("Player");*/
     }
 
     void Start()
@@ -39,6 +40,7 @@ public class PlayerManager : MonoBehaviour
 
     public void KillPlayer()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        FindObjectOfType<AudioManager>().Play("PlayerDeath");
+        GameObject.FindGameObjectWithTag("Respawn Menu").SetActive(true);
     }
 }

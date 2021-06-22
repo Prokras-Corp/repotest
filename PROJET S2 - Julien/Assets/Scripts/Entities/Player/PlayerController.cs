@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
     public OnFocusChanged onFocusChangedCallback;
     public Interactable focus;
 
+
     //Movement Variables
     public float speed = 12f;
     public float gravity = -9.81f;
@@ -97,15 +98,13 @@ public class PlayerController : MonoBehaviour
         }
         
         // Interactables
-        if (Input.GetMouseButtonDown(0))
+        RaycastHit hit;
+        if (Physics.Raycast(cameraHolder.transform.position, cameraHolder.transform.forward, out hit))
         {
-            RaycastHit hit;
-            if (Physics.Raycast(cameraHolder.transform.position, cameraHolder.transform.forward, out hit))
-            {
-                Debug.Log("Raycast hit!");
-                SetFocus(hit.collider.GetComponent<Interactable>());
-            }
+            Debug.Log("Raycast hit!");
+            SetFocus(hit.collider.GetComponent<Interactable>());
         }
+        
     }
     
     // Interactable Focus
@@ -113,18 +112,22 @@ public class PlayerController : MonoBehaviour
     void SetFocus (Interactable newFocus)
     {
         if (onFocusChangedCallback != null)
+        {
             onFocusChangedCallback.Invoke(newFocus);
+            Debug.Log("OnFocusChangedCallback debug");
+        }
 
-        
         if (focus != newFocus && focus != null)
         {
             focus.OnDefocused();
+            Debug.Log("Defocus");
         }
 
         focus = newFocus;
 
         if (focus != null)
         {
+            Debug.Log("Successfully found the interactable");
             focus.OnFocused(transform);
         }
 

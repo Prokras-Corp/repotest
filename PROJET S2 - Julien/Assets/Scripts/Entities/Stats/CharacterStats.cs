@@ -19,6 +19,10 @@ public class CharacterStats : MonoBehaviour
         healthBar.SetHealth(currentHealth);
         Debug.Log(transform.name + " takes " + damage + " damage.");
 
+        if (Input.GetKeyDown("G"))
+        {
+            Die();
+        }
         if (currentHealth <= 0)
         {
             Die();
