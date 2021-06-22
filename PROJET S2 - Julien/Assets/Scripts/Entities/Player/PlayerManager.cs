@@ -10,6 +10,7 @@ public class PlayerManager : MonoBehaviour
     PhotonView PV;
 
     public GameObject player;
+    public Quest quest;
 
 
     private void Awake()

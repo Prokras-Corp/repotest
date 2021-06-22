@@ -2255,12 +2255,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage:
-    baseValue: 0
+    baseValue: 3
   armor:
-    baseValue: 0
+    baseValue: 4
   healthBar: {fileID: 4913041671162017734}
-  maxHealth: 0
-  currentHealth: 0
+  maxHealth: 10
+  currentHealth: 10
 --- !u!1 &6662176283063912173
 GameObject:
   m_ObjectHideFlags: 0
