@@ -7,11 +7,11 @@ public class nav : MonoBehaviour
 {
     public Animator anim;
 
-    GameObject[] targets;
-    GameObject target;
+    public GameObject[] targets;
+
     [SerializeField] NavMeshAgent agent;
     [SerializeField] float DistanceSociale;
-
+    [SerializeField] float DistanceView;
 
     // Update is called once per frame
     void Update()
@@ -23,7 +23,7 @@ public class nav : MonoBehaviour
 
         Vector3 position = agent.transform.position;
 
-        float min = Vector3.Distance(position, targets[0].transform.position);
+        float min = Vector3.Distance(position, (targets[0]).transform.position);
         target = targets[0];
 
         if (remaining_cd <= 0)
