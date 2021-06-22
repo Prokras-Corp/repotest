@@ -135,7 +135,7 @@ public class PlayerController : MonoBehaviour
 
     private void HandleHookshotStart()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        if (Input.GetKeyDown(KeyCode.Alpha2))
         {
             if (Physics.Raycast(cameraHolder.transform.position, cameraHolder.transform.forward, out RaycastHit raycastHit))
             {
@@ -167,7 +167,7 @@ public class PlayerController : MonoBehaviour
 
     void HandleBracelet()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha2))
+        if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             GameObject gate = GameObject.FindGameObjectWithTag("gate");
             gate.transform.eulerAngles = new Vector3(gate.transform.eulerAngles.x, gate.transform.eulerAngles.y + 180, gate.transform.eulerAngles.z);
@@ -176,7 +176,7 @@ public class PlayerController : MonoBehaviour
 
     void HandleTorch()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha4))
+        if (Input.GetKeyDown(KeyCode.Alpha3))
         {
             if (torch.activeInHierarchy)
             {

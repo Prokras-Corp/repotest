@@ -19,7 +19,7 @@ public class HandleGateL : MonoBehaviour
 
     void HandleGate()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha3))
+        if (Input.GetKeyDown(KeyCode.Alpha4))
         {
             while (Vector3.Distance(this.transform.position, final) > 0.1f)
             {

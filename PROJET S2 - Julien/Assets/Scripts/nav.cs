@@ -5,6 +5,8 @@ using UnityEngine.AI;
 
 public class nav : MonoBehaviour
 {
+    public Animator anim;
+
     GameObject[] targets;
     GameObject target;
     [SerializeField] NavMeshAgent agent;
@@ -46,8 +48,12 @@ public class nav : MonoBehaviour
         if (Vector3.Distance(position, destination) < DistanceSociale)
         {
             agent.SetDestination(position);
+            anim.SetBool("Moving", true);
         }
         else
+        {
             agent.SetDestination(destination);
+            anim.SetBool("Moving", false);
+        }
     }
 }

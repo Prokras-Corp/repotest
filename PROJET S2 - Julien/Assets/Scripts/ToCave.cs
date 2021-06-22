@@ -20,7 +20,7 @@ public class ToCave : MonoBehaviour
 
         player = other.GetComponent<CharacterController>();
         player.enabled = false;
-        player.transform.position = new Vector3(82, -28, 157);
+        player.transform.position = new Vector3(82, -20, 157);
         player.enabled = true;
     }
 }

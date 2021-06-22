@@ -3221,7 +3221,12 @@ namespace Photon.Pun
             }
         }
 
-        #endif
+        public static void RaiseEvent(byte nb, string v)
+        {
+            throw new NotImplementedException();
+        }
+
+#endif
 
     }
 }
